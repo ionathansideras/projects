@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&#10004; ToDo - App</title>
+  </head>
+  <body>
+    <script defer src="main.js"></script>
+
+    <header>
+      <img
+        id="hum"
+        value="0"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYUlEQVR4nO3WyQnAMAwFUZcXp/+zDMF9TDrQJcYLmdfBRwimFEmSBgFuoLG/BtRsyMM5+i+GVCDYXwDX51+SJEmaCDN+iZ5dxIyfLMx4SZJ0Gsz4JXp2ETN+sjDjJUlloBfbFyzbu4GNjwAAAABJRU5ErkJggg=="
+      />
+      <h1>&#10004; ToDo App</h1>
+    </header>
+    <h2 class="title">General</h2>
+    <div class="add">
+      <div>+</div>
+      <div>Add new ToDo</div>
+    </div>
+
+    <form class="form">
+      <span class="close">X</span>
+      <h2>+ New</h2>
+      <div>
+        <input class="name" type="text" placeholder="Add ToDo" required />
+        <select required>
+          <option>important</option>
+          <option>Super important</option>
+          <option>Not important</option>
+        </select>
+        <input type="date" class="date" required />
+        <input type="submit" />
+      </div>
+    </form>
+    <div id="cover" class="cover"></div>
+
+    <main></main>
+    <form class="edit-form">
+      <span class="edit-close">X</span>
+      <h2>+ Edit</h2>
+      <div>
+        <input class="edit-name" type="text" placeholder="Add ToDo" required />
+        <select required class="edit-select">
+          <option>important</option>
+          <option>Super important</option>
+          <option>Not important</option>
+        </select>
+        <input type="date" class="edit-date" required />
+        <input type="submit" />
+      </div>
+    </form>
+
+    <nav class="nav">
+      <div class="add-pro">
+        <h2>Projects</h2>
+        <button class="add-project">+ New project</button>
+        <span class="all-projects"> </span>
+      </div>
+    </nav>
+    <form class="project-form">
+      <span class="close-proj">X</span>
+      <h2>+ new project</h2>
+      <div>
+        <input
+          class="project-input"
+          type="text"
+          placeholder="Project name"
+          required
+        />
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
