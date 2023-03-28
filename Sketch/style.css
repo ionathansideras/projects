@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: roboto;
+    background-color: #AED6F1 ;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: rgb(105, 105, 105);
+    transition: opacity 0.3s;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.flex-main{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+button {
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(59, 163, 255);
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
+.buttonPick{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.colorPick{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.colorPick > input {
+    padding-left: 5px;
+}
+
+label{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(59, 163, 255);
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+label:hover{
+    opacity: 0.8;
+}
+
+label:active {
+    opacity: 0.6;
+}
+
+p{
+    text-align: center;
+
+}
+.size{
+    display: flex;
+    justify-content: center; 
+    background-color: #AED6F1;
+}
+
+#color{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+  }
+  #color::-webkit-color-swatch {
+    border-radius: 50%;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30px;
+    background-color: rgb(85, 85, 85);
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
